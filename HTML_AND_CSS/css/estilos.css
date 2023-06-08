@@ -64,7 +64,12 @@
   height: 100%;
 }
 
+.home-description {
+  margin-bottom: 2rem;
+}
+
 .home-right-image {
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,12 +84,20 @@
 .home-title {
   margin: 0 auto 2rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 .home-features {
-  padding: 5rem;
-  width: 70%;
+  padding: 4rem;
+  padding-right: 0;
+  width: 60%;
   color: #fff;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
 
 .home-features-list {
@@ -92,4 +105,29 @@
   flex-direction: column;
   gap: 2rem;
   list-style: none;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.home-feature {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.home-feature-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+
+.home-feature i {
+  width: 3rem;
+  height: 3rem;
+  font-size: 3rem;
+  color: #ee9b00;
+  background-color: #fff;
 }
